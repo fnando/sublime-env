@@ -1,0 +1,15 @@
+[
+  {
+    "args": {
+      "base_file": "${packages}/SublimeEnv/SublimeEnv.sublime-settings",
+      "default": "// SublimeEnv - User\n{\n\t$0\n}\n"
+    },
+    "caption": "SublimeEnv: Settings",
+    "command": "edit_settings"
+  },
+
+  {
+    "caption": "SublimeEnv: Reload Environment",
+    "command": "reload_env"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  // Set environment variables from this list.
+  // `PATH` has a special behaviour: if it's not set on the following
+  // dictionary, then value is fetched out of the system using the `.commands`.
+  "env": {},
+
+  // The commands that will be used to fetch `PATH`.
+  // They will only be called when `PATH` is not defined directly on `.env`.
+  // You can use the variables `{user}` and `{shell}` like the OSX command.
+  "commands": {
+    "osx": "/usr/bin/login -fqpl {user} {shell} -l -c 'echo $PATH'",
+    "linux": "su - {user} -c 'echo $PATH'"
+  },
+
+  // Enable debug mode.
+  "debug": false
+}
