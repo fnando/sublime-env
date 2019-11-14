@@ -17,7 +17,7 @@ Clone this repository into the Sublime Text “Packages” directory, which is l
 
 You can set environment variables by editing the settings file. You can either open the command palette and search for “SublimeEnv: Settings” or use “Sublime Text -> Preferences -> Package Settings -> SublimeEnv -> Settings”. The default settings are:
 
-```json
+```jsonc
 {
   // Set environment variables from this list.
   // `PATH` has a special behaviour: if it's not set on the following
